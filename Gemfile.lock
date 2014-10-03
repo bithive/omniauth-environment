@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    omniauth-remote_user (0.0.1)
+      omniauth (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hashie (3.3.1)
+    omniauth (1.2.2)
+      hashie (>= 1.2, < 4)
+      rack (~> 1.0)
+    rack (1.5.2)
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  omniauth-remote_user!
+  rake
